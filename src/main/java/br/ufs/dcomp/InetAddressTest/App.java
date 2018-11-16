@@ -15,7 +15,7 @@ public class App
             String name = "www.ufs.br";
             InetAddress address = InetAddress.getByName(name); 
             System.out.println( "Name:      "+ name);
-            System.out.println( "Address:   "+ address);
+            System.out.println( "Address:   "+ address.getHostAddress());
 
         } catch (UnknownHostException e){
             System.out.println(e.getMessage());
